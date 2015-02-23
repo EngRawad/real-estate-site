@@ -1,0 +1,118 @@
+@charset "utf-8";
+/* CSS Document */
+
+.itemm{
+position:relative;top:0;left:0;
+display:block;
+border:1px solid #d9d2b0;
+background: #fff;
+padding:3px;
+-moz-border-radius: 5px;
+-webkit-border-radius:5px;
+border-radius:5px;
+
+float:left;
+}
+
+.itemm:hover{
+	background: #FFF4DD;
+	border:1px solid #40311E;
+	padding-bottom:5px;
+	padding-top:5px;
+	z-index:1000;
+}
+.itemm a{
+	color:#40311E;
+}
+
+.mt{
+	width:105px;
+	text-align:center;
+}
+.mt h2{
+border-bottom: none;
+padding:0px 0px 0px 0px;	
+}
+.mtlong h2{
+border-bottom: none;
+}
+.mtlong{
+	width:500px;
+	text-align:center;
+}
+.mtlong2{
+	width:164px;
+	text-align:center;
+}
+.mt a:hover{
+text-decoration: none;
+color: #85653d;
+}
+.mtlong a:hover{
+text-decoration: none;
+color: #85653d;
+}
+.mtlong2 a:hover{
+text-decoration: none;
+color: #85653d;
+}
+.itemmain{
+border:1px solid #d9d2b0;
+background: #FFF4DD;
+width:938px;
+-moz-border-radius: 5px;
+-webkit-border-radius:5px;
+border-radius:5px;
+margin:0 10px 10px 0;
+float:left;
+}
+.hmenu{
+text-transform: uppercase;
+font-weight: bold;
+display: block;
+font-size: 11px;
+color:#40311e;
+}
+.hmenu:hover{
+text-decoration: none;
+color: #85653d;
+}
+/*Всплывающий скриншот*/
+.thumbnail{  
+position: relative;  
+z-index: 0;  
+}  
+.thumbnail:hover{  
+background-color: transparent;  
+z-index: 50;  
+}  
+.thumbnail span{ /*CSS for enlarged image*/  
+position: absolute;  
+background-color: #fffbf2;  
+padding: 1px;  
+left: -1000px;  
+border: 1px solid white;  
+visibility: hidden;  
+color: #40311e;  
+text-decoration: none;  
+border-radius: 4px 4px 4px 4px;
+-moz-border-radius: 4px 4px 4px 4px;
+-webkit-border-radius: 4px 4px 4px 4px;
+}  
+.thumbnail span img{ /*CSS for enlarged image*/  
+border-width: 0;  
+padding: 1px;  
+}  
+.thumbnail:hover span{ /*CSS for enlarged image on hover*/  
+visibility: visible;  
+
+left: 0px; /*position where enlarged image should offset horizontally */  
+}  
+/*---------------------*/
+.portfolio_item .item_data:hover{
+background: #FFF4DD;
+border:1px solid #40311E;
+}
+.activered{
+	color:#F00;
+}

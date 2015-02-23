@@ -1,0 +1,53 @@
+<?php
+
+define("TITLE","Settings");
+define("FORM_LANGUAGE","Language");
+define("FORM_LANGUAGE_RU","Русский");
+define("FORM_LANGUAGE_EN","English");
+define("FORM_INTERFACE_SETTINGS","Interface settings");
+define("FORM_COUNT_SEND","The number of mailings to the Administration page");
+define("FORM_COUNT_USER","The number of subscribers to the Administration page");
+define("FORM_EMAIL","E-mail");
+define("FORM_SUBSCRIBERNOTIFY","Notify about new subscriber");
+define("FORM_ORGANIZATION","Organization");
+define("FORM_FROM","Name of E-mail of admin (from)");
+define("FORM_SUBJECTTEXTCONFIRM","Confirmation subject");
+define("FORM_HINT","Supported tags: %NAME% - Username, %DAYS% - Number of days to activate the subscription, %CONFIRM% - Link to confirm mailing, %UNSUB% - Link to remove mailing, %SERVER_NAME% - Website address");
+define("FORM_TEXTCONFIRMATION","Confirmation text");
+define("FORM_UNSUBLINK","Unsublink text");
+define("FORM_SMTP_SETTINGS","SMTP server settings");
+define("FORM_SMTP_HOST","Host of SMTP server");
+define("FORM_SMTP_USERNAME","Mailbox login");
+define("FORM_SMTP_PASSWORD","Password");
+define("FORM_SMTP_PORT","Port of SMTP server");
+define("FORM_SMTP_SSL","Connect via the secure connection (SSL)");
+define("FORM_SMTP_AUT","Authentification method");
+define("FORM_SMTP_AUT_1","PLAIN&nbsp;(Low privacy)&nbsp;");
+define("FORM_SMTP_AUT_2","CRAM-MD5&nbsp;(High privacy)");
+define("FORM_SMTP_TIMEOUT","Timeout connection");
+define("FORM_PARAMETERS","Mailing parameters");
+define("FORM_UNSUBSCRIBE","Display the unsubscribeform");
+define("FORM_SHOWADMIN","Display administrator's e-mail address in the letters");
+define("FORM_REPLY","Request a Read Receipt");
+define("FORM_INTERVAL_TYPE","Interval between mailings,");
+define("FORM_INTERVAL_TYPE_NO","no");
+define("FORM_INTERVAL_TYPE_M","minutes");
+define("FORM_INTERVAL_TYPE_H","hours");
+define("FORM_INTERVAL_TYPE_D","days");
+define("FORM_MANY_SEND","Send the same letter multiple times");
+define("FORM_LIMIT_NUMBER","At a time to send letters to no more than");
+define("FORM_DAY","Remove the subscriber if he is inactive during (days)");
+define("FORM_CHARSET","Charset");
+define("FORM_CONTENTTYPE","Format of outgoing letters");
+define("FORM_SEND_SERVER","Send letters via");
+define("FORM_SEND_SERVER_1","mail()&nbsp;");
+define("FORM_SEND_SERVER_2","SMTP server");
+define("FORM_SAVE_CHANGES","Save changes");
+define("FORM_BY_DEFAULT","By default");
+define("ALERT_ENTER_SMTP_HOST","Enter the host of SMTP server!");
+define("ALERT_ENTER_SMTP_PORT","Enter the port of SMTP server!");
+define("SUBJECTTEXTCONFIRM","Subscription to mailing");
+define("UNSUBLINK",'\r\nUnsubscribe from mailing: <a href=%UNSUB%>%UNSUB%</a>');
+define("TEXTCONFIRMATION",'Hello, %NAME%\r\n\r\nGetting mail is possible after the completion of activation. You have %DAYS% days to activate your subscription. To do this, click on the link below: %CONFIRM%\r\nIf you are not subscribing to this address, simply ignore the letter or go to: %UNSUB%\r\n\r\nSincerely, the site administrator %SERVER_NAME%');
+
+?>

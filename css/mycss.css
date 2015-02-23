@@ -1,0 +1,257 @@
+@charset "utf-8";
+/* CSS Document */
+
+.itemm{
+border:1px solid #d9d2b0;
+background: #fff;
+width:926px;
+padding:6px;
+-moz-border-radius: 5px;
+-webkit-border-radius:5px;
+border-radius:5px;
+margin:0 10px 10px 0;
+float:left;
+
+}
+.itemm:hover{
+	background: #FFF4DD;
+	border:1px solid #40311E;
+	padding:8px;
+	width:922px;
+}
+.itemm a{
+	color:#40311E;
+}
+.itemm2{
+position:relative;top:0;left:0;
+display:block;
+border:1px solid #d9d2b0;
+background: #fff;
+padding:3px;
+-moz-border-radius: 5px;
+-webkit-border-radius:5px;
+border-radius:5px;
+
+float:left;
+}
+
+.itemm2:hover{
+	background: #FFF4DD;
+	border:1px solid #40311E;
+	padding-bottom:5px;
+	padding-top:5px;
+	z-index:1000;
+}
+.itemm2 a{
+	color:#40311E;
+}
+.mt{
+	width:105px;
+	text-align:center;
+}
+.mt h2{
+border-bottom: none;	
+}
+.mtlong h2{
+border-bottom: none;
+}
+.mtlong{
+	width:500px;
+	text-align:center;
+}
+.mtlong2{
+	width:164px;
+	text-align:center;
+}
+.mt a:hover{
+text-decoration: none;
+color: #85653d;
+}
+.mtlong a:hover{
+text-decoration: none;
+color: #85653d;
+}
+.mtlong2 a:hover{
+text-decoration: none;
+color: #85653d;
+}
+.itemmain{
+border:1px solid #d9d2b0;
+background: #FFF4DD;
+width:938px;
+-moz-border-radius: 5px;
+-webkit-border-radius:5px;
+border-radius:5px;
+margin:0 10px 10px 0;
+float:left;
+}
+.hmenu{
+text-transform: uppercase;
+font-weight: bold;
+display: block;
+font-size: 11px;
+color:#40311e;
+}
+.hmenu:hover{
+text-decoration: none;
+color: #85653d;
+}
+/*Всплывающий скриншот*/
+.thumbnail{  
+position: relative;  
+z-index: 0;  
+}  
+.thumbnail:hover{  
+background-color: transparent;  
+z-index: 50;  
+}  
+.thumbnail span{ /*CSS for enlarged image*/  
+position: absolute;  
+background-color: #fffbf2;  
+padding: 1px;  
+left: -1000px;  
+border: 1px solid white;  
+visibility: hidden;  
+color: #40311e;  
+text-decoration: none;  
+border-radius: 4px 4px 4px 4px;
+-moz-border-radius: 4px 4px 4px 4px;
+-webkit-border-radius: 4px 4px 4px 4px;
+display:none;
+}  
+.thumbnail span img{ /*CSS for enlarged image*/  
+border-width: 0;  
+padding: 1px;  
+}  
+.thumbnail:hover span{ /*CSS for enlarged image on hover*/  
+visibility: visible;
+display:inline;
+left: 158px; /*position where enlarged image should offset horizontally */  
+} 
+
+/*---------------------*/
+.portfolio_item .item_data:hover{
+background: #FFF4DD;
+border:1px solid #40311E;
+}
+.activered{
+	color:#F00;
+}
+.myselect{
+	width:160px;
+}
+.right_float{
+	float:right;
+}
+.mymargin{
+	margin:0px 15px 0px 15px;
+}
+
+.left_float{
+	float:left;
+	margin-right:5px;
+}
+.enddiv{
+	 margin-left: 200px;
+}
+.ulline{
+		float: left;
+		margin-right:5px;
+}
+.ulnext{ clear: both; }
+.showloader{ 
+float:left;
+padding-right: 30px;
+margin: 0px 0px 0px 10px;
+}
+.searchdiv{float:right;
+	margin: 0px 0px 0px 10px;
+}
+.tivfont{
+	font-weight: bold;
+	font-size: 11px;
+}
+.mydiv{
+	width:162px;
+	height:38px;	
+}
+.headlot{
+	font-size: 16px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color:#8B231A;
+	float:left;
+	text-align:center;
+}
+.mytable{
+	line-height:12px;
+	font-size:15px;
+}
+.mytable th{
+	text-align:left;
+}
+.mytable td{
+	color:#A8231A;
+	text-align:left;
+}
+.merguyn{
+	color:#8B231A;
+}
+.merguyn:hover{
+	color:#40311E;	 
+}
+.merguynpoqr{
+	color:#8B231A;
+	font-size:14px;
+}
+.my_margin{
+	margin:5px 5px -5px 0px;
+	border:hidden;
+}
+.noborder{
+	border:hidden;
+}
+.redd{
+	color:#F00;	
+}
+.spec{
+	opacity:0.8;
+	position: absolute;
+	margin-left:860px;
+	margin-top:-15px; 
+	z-index: 10000;
+}
+.kreditdiv {
+    margin: 0; /* Обнуляем значение отступов */
+    padding: 4px; /* Значение полей */
+  	border: 1px solid #000; /* Рамка вокруг текста */
+   
+   }
+.kredit{
+	width:70px;
+}
+.pricerent{
+    margin: 0; /* Обнуляем значение отступов */
+    padding: 4px; /* Значение полей */
+  	border: 1px solid #8B231A; /* Рамка вокруг текста */
+	background:#FFF;
+   }
+.pricerent:hover{
+	 margin: 1px;
+	background:#FFFBF2;
+	text-decoration:none;
+   }
+.pricetable{
+	
+	color:#F00 !important;
+	text-align:center !important;
+	height:25px;
+	background:#FFFBF2;
+}
+.pricetablemenu{
+	font-size:12px;
+	font-weight:bold;
+	background:#FFFBF2;
+	color:#40311E !important;
+	text-align:center !important;
+}

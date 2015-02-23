@@ -1,0 +1,53 @@
+<?php
+
+define("TITLE","Настройки");
+define("FORM_LANGUAGE","Язык");
+define("FORM_LANGUAGE_RU","Русский");
+define("FORM_LANGUAGE_EN","English");
+define("FORM_INTERFACE_SETTINGS","Настройки интерфейса");
+define("FORM_COUNT_SEND","Показывать рассылок на странице администрирования");
+define("FORM_COUNT_USER","Показывать подписчиков на странице администрирования");
+define("FORM_EMAIL","E-mail");
+define("FORM_SUBSCRIBERNOTIFY","Уведомлять о новом подписчике");
+define("FORM_ORGANIZATION","Организация");
+define("FORM_FROM","Имя к E-mail администратора (from)");
+define("FORM_SUBJECTTEXTCONFIRM","Тема подтверждения рассылки");
+define("FORM_HINT","Поддерживаемые теги: %NAME% - имя подписчика, %DAYS% - количество дней для активации подписки, %CONFIRM% - ссылка для подтверждения рассылки, %UNSUB% - ссылка для удаления рассылки, %SERVER_NAME% - адрес сайта");
+define("FORM_TEXTCONFIRMATION","Текст подтверждения рассылки");
+define("FORM_UNSUBLINK","Текст ссылки отписки от рассылки");
+define("FORM_SMTP_SETTINGS","Настройки SMTP сервера");
+define("FORM_SMTP_HOST","smtp сервер");
+define("FORM_SMTP_USERNAME","Логин почтового ящика");
+define("FORM_SMTP_PASSWORD","Пароль");
+define("FORM_SMTP_PORT","Порт smtp сервера");
+define("FORM_SMTP_SSL","Подключаться через безопасное соединение (SSL)");
+define("FORM_SMTP_AUT","Метод аутентификации");
+define("FORM_SMTP_AUT_1","PLAIN&nbsp;(Низкая секретность)&nbsp;");
+define("FORM_SMTP_AUT_2","CRAM-MD5&nbsp;(Высокая секретность)");
+define("FORM_SMTP_TIMEOUT","Таймаут соединения");
+define("FORM_PARAMETERS","Параметры рассылки");
+define("FORM_UNSUBSCRIBE","Показывать форму отписки от рассылки");
+define("FORM_SHOWADMIN","Показывать e-mail администратора в отправляемых письмах");
+define("FORM_REPLY","Запрашивать уведомления о прочтении писем");
+define("FORM_INTERVAL_TYPE","Интервал между рассылками,");
+define("FORM_INTERVAL_TYPE_NO","нет");
+define("FORM_INTERVAL_TYPE_M","минут");
+define("FORM_INTERVAL_TYPE_H","часов");
+define("FORM_INTERVAL_TYPE_D","дней");
+define("FORM_MANY_SEND","Отправлять одно и тоже письмо повторно");
+define("FORM_LIMIT_NUMBER","Отправлять не более писем за раз");
+define("FORM_DAY","Удалять подписчика, если он не активировался в течении (дней)");
+define("FORM_CHARSET","Кодировка исходящих писем");
+define("FORM_CONTENTTYPE","Формат исходящих писем");
+define("FORM_SEND_SERVER","Отправлять письма через");
+define("FORM_SEND_SERVER_1","mail()&nbsp;");
+define("FORM_SEND_SERVER_2","smtp сервер");
+define("FORM_SAVE_CHANGES","Сохранить изменения");
+define("FORM_BY_DEFAULT","По умолчанию");
+define("ALERT_ENTER_SMTP_HOST","Введите хост smtp сервера!");
+define("ALERT_ENTER_SMTP_PORT","Введите номер порта smtp сервера!");
+define("SUBJECTTEXTCONFIRM","Подписка на расcылку");
+define("UNSUBLINK",'\r\nОтписаться от рассылки: <a href=%UNSUB%>%UNSUB%</a>');
+define("TEXTCONFIRMATION",'Здравствуйте, %NAME%\r\n\r\nПолучение рассылки возможно после завершения этапа активации подписки. У Вас %DAYS% дней, чтобы активировать подписку, перейдите по следующей ссылке: %CONFIRM%\r\nЕсли Вы не производили подписку на данный email, просто проигнорируйте это письмо или перейдите по ссылке: %UNSUB%\r\n\r\nС уважением, администратор сайта %SERVER_NAME%');
+
+?>

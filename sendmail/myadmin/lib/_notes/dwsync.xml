@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="functions.inc" server="olga.hol.es" local="130399019142792708" remote="130398925200000000" Dst="0" />
+<file name="connect.inc" server="olga.hol.es" local="130399019150183130" remote="130398925200000000" Dst="0" />
+<file name="set.inc" server="olga.hol.es" local="130399019140842596" remote="130398925200000000" Dst="0" />
+<file name="authenticate.inc" server="olga.hol.es" local="130399019152283250" remote="130398925200000000" Dst="0" />
+<file name="delete.inc" server="olga.hol.es" local="130399019149233076" remote="130398925200000000" Dst="0" />
+<file name="exception_object_debug.inc" server="olga.hol.es" local="130399019143862769" remote="130398925200000000" Dst="0" />
+<file name="exception_mysql_debug.inc" server="olga.hol.es" local="130399019145852883" remote="130398925200000000" Dst="0" />
+<file name="exception_member_debug.inc" server="olga.hol.es" local="130399019146902943" remote="130398925200000000" Dst="0" />
+</dwsync>

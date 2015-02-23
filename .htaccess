@@ -1,0 +1,9 @@
+AddDefaultCharset utf-8
+php_value max_execution_time 600 
+php_value upload_max_filesize 40M 
+php_value post_max_size 40M
+php_value memory_limit	128M
+php_value max_input_time 600
+AddType video/ogg .ogv
+AddType video/mp4 .mp4
+AddType video/webm .webm
